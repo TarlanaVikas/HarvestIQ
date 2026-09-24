@@ -1,0 +1,44 @@
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Packaging and build output
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+share/python-wheels/
+wheelhouse/
+
+# Test, type-checking, and lint caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit local configuration
+.streamlit/secrets.toml
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
